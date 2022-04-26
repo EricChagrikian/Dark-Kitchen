@@ -1,0 +1,26 @@
+header{
+    background-color: rgb(254, 174, 24);
+   padding-bottom:15%;
+   border:2px solid;
+}
+.Titre{
+    text-align:center;
+    letter-spacing:  8.75px;
+    font-family: 'Fraunces',serif;
+}
+
+.Tata{
+    border-radius: 100%;
+    border: 2px solid;
+}
+nav ul{
+    display:flex;
+    justify-content: flex-end;
+    margin-top: -15%;
+}
+nav li {
+    font-size: 18px;
+    margin-left: 8%;
+    margin-right:11%;
+}
+
