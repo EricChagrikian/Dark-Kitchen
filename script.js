@@ -2,27 +2,27 @@ let bouffe = [
 {
     Name : "Menu Medium Big Burger" ,
     Ingredient : "800gr de boeuf , 300gr de poulet et 250gr de bacon" ,
-    Accompagnement : "2 kilos de frites cheddar, Menu Large = 3 kilos" ,
+    Accompagnement : "2 kilos de frites cheddar" ,
     Sauce : ["BBQ, " ,  "Biggy, " , "Mayo, " , "Ketchup, " , "Andalouse, " , "Samourai, " , "Sauce Carbonara"] ,
-    Boissons : "5 litres de Powerade " , "10 litres pour le large" ,
+    Boissons : "5 litres de Powerade " ,
     Prix : 15000,
-    Size : 2000 ,
+    Size : "Minimum 1,5 Kg",
 }
 ,
 { 
-    Name : "Menu Mini Medium Big Burger X6" ,
+    Name : "Menu Mini Big Burger X6" ,
     Ingredient : "800gr de boeuf , 300gr de poulet et 250gr de bacon" ,
-    Accompagnement : "2 kilos de frites cheddar, Menu Large = 3 kilos" ,
+    Accompagnement : "3 kilos de frites cheddar" ,
     Sauce : ["BBQ, " ,  "Biggy, " , "Mayo, " , "Ketchup, " , "Andalouse, " , "Samourai, " , "Sauce Carbonara"] ,
-    Boissons : "5 litres de Powerade " , "10 litres pour le large" ,
+    Boissons : "10 litres de Powerade " , 
     Prix : 16000,
-    Size : 2500 ,
+    Size : "6 minis burger qui regroupé font 1,5kg" ,
 }
 ,
 {
     Name : "Medium Maxi Tacos" , 
     Ingredient : "Choisis 8 parmis: Poulet mariné, Viande hachée, Cordon Bleu, Tenders, Nuggets, Fricadelle, Falafel, Kebab, Merguez, Bacon, Fish Stick",
-    Accompagnement : "2 kilos de frites cheddar, Menu Large = 3 kilos" ,
+    Accompagnement : "2 kilos de frites cheddar" ,
     Sauce : ["BBQ, " ,  "Biggy, " , "Mayo, " , "Ketchup, " , "Andalouse, " , "Samourai, " , "Sauce Carbonara"] ,
     Boissons : "5 litres de Powerade " ,
     Prix : 17000,
@@ -32,7 +32,7 @@ let bouffe = [
 {
     Name : "Maxi Maxi Tacos" , 
     Ingredient : "Choisis 10 parmis: Poulet mariné, Viande hachée, Cordon Bleu, Tenders, Nuggets, Fricadelle, Falafel, Kebab, Merguez, Bacon, Fish Stick",
-    Accompagnement : "2 kilos de frites cheddar, Menu Large = 3 kilos" ,
+    Accompagnement : "3 kilos Frites cheddar" ,
     Sauce : ["BBQ, " ,  "Biggy, " , "Mayo, " , "Ketchup, " , "Andalouse, " , "Samourai, " , "Sauce Carbonara"] ,
     Boissons : "10 litres de Powerade" ,
     Prix : 20000,
@@ -57,5 +57,29 @@ let bouffe = [
     Prix : 17000,
     Size : "8 mètres de Diamètre",
 }
+,
+{
+    Name : "Big Boy Milkshake",
+    Ingredient : ["Kinder bueno, " , "Nutella, " , "Ferrero Rocher, " , "Kinder Country," , "Kinder Delice," , "Oreo," , "Kitkat," , "M&ms" ] ,
+    Accompagnement : "5 litres de lait" ,
+    Prix : 5000,
+}
+,
+{
+    Name : "Menu Sushi Sauvage",
+    Ingredient : "Riz et Saumon" ,
+    Accompagnement : "Wasabi et Gingembre" ,
+    Sauce : "Soja" ,
+    Prix : 15000 ,
+    Size : "Menu 12 Sushi",
 
+}
+,
+{
+    Name : "Tiramisu Bang Bang" ,
+    Ingredient : ["Mascarpone," , "Café," , "Speculoos," , "Oreo," , "Kinder Bueno," , "Nutella," ] ,
+    Accompagnement : "Coulis de framboise" , 
+    Prix : 7500 ,
+    Size : "4 Kilos",
+}
 ]
