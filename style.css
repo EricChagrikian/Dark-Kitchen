@@ -25,7 +25,7 @@ nav li {
 }
 
 .card {
-  background-color: rgba(255, 166, 0, 0.829);
+  background-color: rgba(253, 200, 101, 0.986);
   border: 1px solid grey;
   color: white;
   padding: 1rem;
@@ -62,13 +62,19 @@ article li {
 
 button {
     display: flex;
-    width: 32%;
+    min-width: 32%;
+    max-width: 40%;
     height: 4%;
     margin: auto;
     background-color: rgb(150, 150, 202);
+    flex-wrap: nowrap;
+    overflow: hidden;
 }
 
 button img {
-    width: 20%;
+    max-width: 20%;
     margin-left: 3px;
+}
+
+aside {
 }
