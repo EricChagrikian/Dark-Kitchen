@@ -10,16 +10,32 @@
 </head>
 <body>
     <header>
+        <section class="header">
+            <nav class="navbar">
+                <div class="navbar-box">
+                </div>
         <nav>
-            <img src="img/Tatachamas.png" class="Tata">
-            <ul>
-                <li>Contact</li>
-                <li>Adresse</li>
-                <li>Commander</li>
-                <li>Panier</li>
-            </ul>
+
+            <input type="checkbox" id="menu-toggle"/>
+            <label id="trigger" for="menu-toggle"></label>
+            <label id="burger" for="menu-toggle"></label>
+            <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Adresse</a></li>
+            <li><a href="#">Panier</a></li>
+          </ul>
+
         </nav>
-        <h1 class="Titre">Bienvenue chez Tatachamas</h1>
+        <h3 class="heading-tertiary">Bienvenue chez Tatachamas</h3>
+        <div class="header-container">
+            <div class="video">
+                <video loop muted autoplay id="video">
+                    <source src="img/video.mp4" type="video/mp4">
+                        This file type is not supported
+                </video>
+            </div>
+        
     </header>
     <main>
         <section class="cards">
