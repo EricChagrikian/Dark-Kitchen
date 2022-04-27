@@ -1,4 +1,100 @@
-<<<<<<< HEAD
+let bouffe = [
+    {
+        Name : "Menu Medium Big Burger" ,
+        category: "Burger",
+        Ingredient : "800gr de boeuf , 300gr de poulet et 250gr de bacon" ,
+        Accompagnement : "2 kilos de frites cheddar" ,
+        Sauce : ["BBQ, " ,  "Biggy, " , "Mayo, " , "Ketchup, " , "Andalouse, " , "Samourai, " , "Sauce Carbonara"] ,
+        Boissons : "5 litres de Powerade " ,
+        Prix : 15000,
+        Size : "Minimum 1,5 Kg",
+    }
+    ,
+    { 
+        Name : "Menu Mini Big Burger X6" ,
+        category: "Burger",
+        Ingredient : "800gr de boeuf , 300gr de poulet et 250gr de bacon" ,
+        Accompagnement : "3 kilos de frites cheddar" ,
+        Sauce : ["BBQ, " ,  "Biggy, " , "Mayo, " , "Ketchup, " , "Andalouse, " , "Samourai, " , "Sauce Carbonara"] ,
+        Boissons : "10 litres de Powerade " , 
+        Prix : 16000,
+        Size : "6 minis burger qui regroupé font 1,5kg" ,
+    }
+    ,
+    {
+        Name : "Medium Maxi Tacos" , 
+        category: "Tacos",
+        Ingredient : "Choisis 8 parmis: Poulet mariné, Viande hachée, Cordon Bleu, Tenders, Nuggets, Fricadelle, Falafel, Kebab, Merguez, Bacon, Fish Stick",
+        Accompagnement : "2 kilos de frites cheddar" ,
+        Sauce : ["BBQ, " ,  "Biggy, " , "Mayo, " , "Ketchup, " , "Andalouse, " , "Samourai, " , "Sauce Carbonara"] ,
+        Boissons : "5 litres de Powerade " ,
+        Prix : 17000,
+    
+    }
+    ,
+    {
+        Name : "Maxi Maxi Tacos" , 
+        category: "Tacos",
+        Ingredient : "Choisis 10 parmis: Poulet mariné, Viande hachée, Cordon Bleu, Tenders, Nuggets, Fricadelle, Falafel, Kebab, Merguez, Bacon, Fish Stick",
+        Accompagnement : "3 kilos Frites cheddar" ,
+        Sauce : ["BBQ, " ,  "Biggy, " , "Mayo, " , "Ketchup, " , "Andalouse, " , "Samourai, " , "Sauce Carbonara"] ,
+        Boissons : "10 litres de Powerade" ,
+        Prix : 20000,
+    }
+    ,
+    {
+        Name : "Ramen Tacos " , 
+        category: ["Tacos" , "Asiatique"],
+        Ingredient : "Ramen , Tortilla", 
+        Accompagnement: "Ramen", 
+        Sauce : "Soja" ,
+        Boissons : "10 litres de Powerade" , 
+        Prix : 23000,
+        Size : "3 metrès de Tacos",
+    }
+    ,
+    {
+        Name : "Big Boy Pizza",
+        category: "Pizza",
+        Ingredient : "Viande hachée , Fromage", 
+        Accompagnement : " 2 kilos Bread Sticks",
+        Sauce : "Tomate" , 
+        Boissons : "10 litres de Powerade" , 
+        Prix : 17000,
+        Size : "8 mètres de Diamètre",
+    }
+    ,
+    {
+        Name : "Menu Sushi Sauvage",
+        category: "Asiatique",
+        Ingredient : "Riz et Saumon" ,
+        Accompagnement : "Wasabi et Gingembre" ,
+        Sauce : "Soja" ,
+        Prix : 15000 ,
+        Size : "Menu 12 Sushi",
+    
+    }
+    ,
+    {
+        Name : "Big Boy Milkshake",
+        category: "Déssert",
+        Ingredient : ["Kinder bueno, " , "Nutella, " , "Ferrero Rocher, " , "Kinder Country," , "Kinder Delice," , "Oreo," , "Kitkat," , "M&ms" ] ,
+        Accompagnement : "5 litres de lait" ,
+        Prix : 5000,
+    }
+    ,
+    {
+        Name : "Tiramisu Bang Bang" ,
+        category: "Déssert",
+        Ingredient : ["Mascarpone," , "Café," , "Speculoos," , "Oreo," , "Kinder Bueno," , "Nutella," ] ,
+        Accompagnement : "Coulis de framboise" , 
+        Prix : 7500 ,
+        Size : "4 Kilos",
+    }
+    ]
+
+
+
 const main = document.querySelector('main')
 
 for (let i=0;i<bouffe.length;i++) {
@@ -53,64 +149,3 @@ for (let i=0;i<bouffe.length;i++) {
     a.appendChild(img)
     
 }
-=======
-let bouffe = [
-{
-    Name : "Menu Medium Big Burger" ,
-    Ingredient : "800gr de boeuf , 300gr de poulet et 250gr de bacon" ,
-    Accompagnement : "2 kilos de frites cheddar, Menu Large = 3 kilos" ,
-    Sauce : ["BBQ, " ,  "Biggy, " , "Mayo, " , "Ketchup, " , "Andalouse, " , "Samourai, " , "Sauce Carbonara"] ,
-    Boissons : "5 litres de Powerade " , "10 litres pour le large" ,
-    Prix : 15000,
-    Size : 2000 
-}
-{
-    Name : "Menu Mini Medium Big Burger X6" ,
-    Ingredient : "800gr de boeuf , 300gr de poulet et 250gr de bacon" ,
-    Accompagnement : "2 kilos de frites cheddar, Menu Large = 3 kilos" ,
-    Sauce : ["BBQ, " ,  "Biggy, " , "Mayo, " , "Ketchup, " , "Andalouse, " , "Samourai, " , "Sauce Carbonara"] ,
-    Boissons : "5 litres de Powerade " , "10 litres pour le large" ,
-    Prix : 16000,
-    Size : 2500 
-}
-{
-    Name : "Medium Maxi Tacos" , 
-    Ingredient : "Choisis 8 parmis: Poulet mariné, Viande hachée, Cordon Bleu, Tenders, Nuggets, Fricadelle, Falafel, Kebab, Merguez, Bacon, Fish Stick",
-    Accompagnement : "2 kilos de frites cheddar, Menu Large = 3 kilos" ,
-    Sauce : ["BBQ, " ,  "Biggy, " , "Mayo, " , "Ketchup, " , "Andalouse, " , "Samourai, " , "Sauce Carbonara"] ,
-    Boissons : "5 litres de Powerade " ,
-    Prix : 17000,
-
-}
-{
-    Name : "Maxi Maxi Tacos" , 
-    Ingredient : "Choisis 10 parmis: Poulet mariné, Viande hachée, Cordon Bleu, Tenders, Nuggets, Fricadelle, Falafel, Kebab, Merguez, Bacon, Fish Stick",
-    Accompagnement : "2 kilos de frites cheddar, Menu Large = 3 kilos" ,
-    Sauce : ["BBQ, " ,  "Biggy, " , "Mayo, " , "Ketchup, " , "Andalouse, " , "Samourai, " , "Sauce Carbonara"] ,
-    Boissons : "10 litres de Powerade" ,
-    Prix : 20000,
-}
-{
-    Name : "Ramen Tacos " , 
-    Ingredient : "Ramen , Tortilla", 
-    Accompagnement: "Ramen", 
-    Sauce : "Soja" ,
-    Boissons : "10 litres de Powerade" , 
-    Prix : 23000,
-    Size : "3 metrès de Tacos"
-}
-{
-    Name : "Big Boy Pizza",
-    Ingredient : "Viande hachée , Fromage", 
-    Accompagnement : " 2 kilos Bread Sticks",
-    Sauce : "Tomate" , 
-    Boissons : "10 litres de Powerade" , 
-    Prix : 17000,
-    Size : "8 mètres de Diamètre"
-}
-{
-    
-}
-
-]
->>>>>>> d2906d592b29fdcd538034620f5018bc12268c14
