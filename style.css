@@ -29,7 +29,6 @@ nav ul{
         display: flex;
         margin: auto;
     }
-}
 @media only screen and (max-width: 700px) {
     .heading-tertiary {
         margin-top: 80%;
@@ -202,6 +201,11 @@ a:focus {
    
   
   }
+  .menu {
+    background-color:#da6b1d;
+    border: 1px solid grey;
+    color: white;
+  }
   .cards {
       padding: 1rem;
       display: grid;
@@ -213,6 +217,11 @@ a:focus {
       border-radius: 30px;
       box-shadow: 0 0 2rem rgb(0 0 0 / 20%);
       transition: all .4s ease;
+
+
+     
+
+     
 
     }
     
@@ -258,6 +267,7 @@ a:focus {
     color: white;
     
   }
+
   .menu{
     background-color:#da6b1d;
     border: 1px solid grey;
@@ -265,8 +275,6 @@ a:focus {
     padding: 1rem;
   }
   
-
-
 article:first-of-type img.preview {
     background-image: url(./images/medium-burger.png);
     width: 100%;
