@@ -1,4 +1,5 @@
 
+
 html, body {
     margin: 0;
     padding: 0;
@@ -20,7 +21,7 @@ nav ul{
         display: flex;
     }
     
-    }
+    
     form {
         display: flex;
         margin: auto;
@@ -199,6 +200,7 @@ a:focus {
     border: 1px solid grey;
     color: white;
 
+
 }
 .cards {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -220,6 +222,7 @@ article:first-of-type img.preview {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
   
 article ul {
     list-style-type: none;
@@ -242,6 +245,7 @@ button {
     overflow: hidden;
 }
   
+
 button img {
     max-width: 20%;
     margin-left: 3px;
@@ -256,6 +260,13 @@ button img {
 }
 
 
+  .menu{
+    background-color:#da6b1d;
+    border: 1px solid grey;
+    color: white;
+    padding: 1rem;
+  }
+  
 article:first-of-type img.preview {
     background-image: url(./images/medium-burger.png);
     width: 100%;
@@ -310,3 +321,66 @@ footer {
     background-color: #da6c1d7f;
     font-size: small;
 }
+
+/*<----carte google contact ------------*/
+
+iframe {
+    height: 400px;
+    width: 100%;
+    
+}
+
+
+.Contact {
+   
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+    background-color:#da6b1d;
+    box-shadow: 0px 0px 10px 0px rgb(218, 151, 18);
+}
+.contact-form-txt {
+    width: 100%;
+    height: auto;
+    color: rgb(215, 114, 13);
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+
+}
+.contact-form-txt::placeholder{
+    color: rgb(249, 145, 0);
+}
+.contact-form-txtarea {
+    width: 50%;
+    height: auto;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-form-txtarea::placeholder{
+    color: #d37817;
+}
+.contact-form-btn{
+    width: 40%;
+    margin-left: 5%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background: rgb(228, 127, 26);
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
