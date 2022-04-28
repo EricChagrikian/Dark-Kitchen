@@ -4,6 +4,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+
 }
 body {
     background-image: url(./img/background.png);
@@ -21,11 +22,11 @@ nav ul{
         display: flex;
     }
     
-    
     form {
         display: flex;
         margin: auto;
     }
+}
 @media only screen and (max-width: 700px) {
     .heading-tertiary {
         margin-top: 80%;
@@ -189,11 +190,13 @@ a:focus {
 
 .card {
     background-color: rgba(253, 200, 101, 0.904);
+
     border: 1px solid grey;
     border-radius:30px;
     color: black;
     padding: 1rem;
     height: 600px;
+
 
 }
 .menu {
@@ -256,6 +259,7 @@ button img {
     margin-left: auto;
     margin-right: auto;
     font-family: Times, "Times New Roman", Georgia, serif;
+
     color: rgb(125, 98, 49);    
 }
 
@@ -266,24 +270,7 @@ button img {
     color: white;
     padding: 1rem;
   }
-  
-article:first-of-type img.preview {
-    background-image: url(./images/medium-burger.png);
-    width: 100%;
-    height: 160px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-article ul {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-article li {
-    margin-left: 5px;
-}
 
 button {
     display: flex;
@@ -307,6 +294,20 @@ aside {
 
 form div {
     padding-left: 1%;
+}
+
+article h1{
+    font-size: larger;
+}
+article h2{
+    font-size: medium;
+
+}
+
+.img1{
+    width: 220px;
+    height: 180px;
+    border-radius: 30px;
 }
 
 h3 {
