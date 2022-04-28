@@ -28,7 +28,6 @@ nav ul{
         display: flex;
         margin: auto;
     }
-
 @media only screen and (max-width: 700px) {
     .heading-tertiary {
         margin-top: 80%;
@@ -201,6 +200,11 @@ a:focus {
    
   
   }
+  .menu {
+    background-color:#da6b1d;
+    border: 1px solid grey;
+    color: white;
+  }
   .cards {
       padding: 1rem;
       display: grid;
@@ -210,7 +214,7 @@ a:focus {
       overflow-x: auto;overscroll-behavior-inline: contain;
       column-gap: 1%;
       box-shadow: 0 0 5rem rgba(0,0,0,.4);
-      background-color: rgba(0,0,0,.4);
+
      
     }
   
@@ -256,14 +260,6 @@ a:focus {
     color: grey;
     
   }
-  .menu {
-  background-color:#da6b1d;
-  background-color: rgba(253, 200, 101, 0.986);
-  border: 1px solid grey;
-  color: white;
-  padding: 1rem;
-  height: 37rem;
-}
 
 
 article:first-of-type img.preview {
