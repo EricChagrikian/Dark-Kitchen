@@ -214,14 +214,11 @@ a:focus {
     background-color: rgba(125, 121, 121, 0.089);    
 }
   
-<<<<<<< HEAD
-=======
 .card:hover {
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.607);
     z-index: 1;
 }
 
->>>>>>> fcaabab6433a6fbf7e94d38278859e7ecbe772ac
 .heading{
     font-size: 5rem;
     text-align: center;
@@ -237,31 +234,7 @@ a:focus {
     color: white;
     padding: 1rem;
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
   
-=======
-
-
-button {
-    display: flex;
-    min-width: 32%;
-    max-width: 40%;
-    height: 4%;
-    margin: auto;
-    background-color: rgb(150, 150, 202);
-    flex-wrap: nowrap;
-    overflow: hidden;
-}
-
-button img {
-    max-width: 20%;
-    margin-left: 3px;
-}
->>>>>>> 25327fbb3e78bcc5d456486d3321d34388c0b671
-=======
-  
->>>>>>> fcaabab6433a6fbf7e94d38278859e7ecbe772ac
 
 aside {
     text-align: center;
