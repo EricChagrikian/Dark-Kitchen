@@ -4,6 +4,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+
 }
 body {
     background-image: url(./img/background.png);
@@ -20,7 +21,6 @@ nav ul{
     nav ul {
         display: flex;
     }
-    
     
     form {
         display: flex;
@@ -190,6 +190,7 @@ a:focus {
 
 .card {
     background-color: rgba(253, 200, 101, 0.904);
+
     border: 1px solid grey;
     border-radius:30px;
     color: black;
@@ -201,6 +202,7 @@ a:focus {
 .card:hover {
     box-shadow: 0 0 1rem rgba(0,0,0,.4); ;
     z-index: 1;
+
 }
 
 .menu {
@@ -227,6 +229,7 @@ a:focus {
     margin-left: auto;
     margin-right: auto;
     font-family: Times, "Times New Roman", Georgia, serif;
+
     color: rgb(125, 98, 49);    
 }
 
@@ -236,7 +239,27 @@ a:focus {
     color: white;
     padding: 1rem;
   }
+<<<<<<< HEAD
   
+=======
+
+
+button {
+    display: flex;
+    min-width: 32%;
+    max-width: 40%;
+    height: 4%;
+    margin: auto;
+    background-color: rgb(150, 150, 202);
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+button img {
+    max-width: 20%;
+    margin-left: 3px;
+}
+>>>>>>> 25327fbb3e78bcc5d456486d3321d34388c0b671
 
 aside {
     text-align: center;
@@ -244,6 +267,20 @@ aside {
 
 form div {
     padding-left: 1%;
+}
+
+article h1{
+    font-size: larger;
+}
+article h2{
+    font-size: medium;
+
+}
+
+.img1{
+    width: 220px;
+    height: 180px;
+    border-radius: 30px;
 }
 
 h3 {
