@@ -3,8 +3,8 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    
-    
+   
+
 }
 nav ul{
     display:flex;
@@ -164,6 +164,7 @@ a:focus {
 }
 /*<--- card----->*/
 
+
 .card {
     background-color: rgba(253, 200, 101, 0.986);
     border: 1px solid grey;
@@ -227,4 +228,8 @@ a:focus {
     margin-right: auto;
     font-family: Times, "Times New Roman", Georgia, serif;
     color: grey;
+    
+  }
+  .menu {
+      background-color:#da6b1d;
   }
