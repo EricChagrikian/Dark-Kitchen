@@ -3,12 +3,9 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-
-   
-
-
-
-    
+}
+body {
+    background-image: url(./img/background.png);
 }
 nav ul{
 
@@ -190,7 +187,7 @@ a:focus {
 
 
 .card {
-    background-color: rgba(253, 200, 101, 0.986);
+    background-color: rgba(253, 200, 101, 0.904);
     border: 1px solid grey;
     border-radius:30px;
     color: black;
@@ -199,9 +196,9 @@ a:focus {
 
 }
 .menu {
-    background-color:#da6b1d;
     border: 1px solid grey;
     color: white;
+
 }
 .cards {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -212,7 +209,8 @@ a:focus {
     grid-auto-columns: 21%;
     overflow-x: auto;overscroll-behavior-inline: contain;
     column-gap: 1%;
-    box-shadow: 0 0 5rem rgba(0,0,0,.4);     
+    box-shadow: 0 0 1rem rgba(0,0,0,.4); 
+    background-color: rgba(125, 121, 121, 0.089);    
 }
   
 article:first-of-type img.preview {
@@ -254,7 +252,7 @@ button img {
     margin-left: auto;
     margin-right: auto;
     font-family: Times, "Times New Roman", Georgia, serif;
-    color: grey;    
+    color: rgb(125, 98, 49);    
 }
 
 
@@ -302,4 +300,13 @@ form div {
 
 h3 {
    margin-top: -1%;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #da6c1d7f;
+    font-size: small;
 }
