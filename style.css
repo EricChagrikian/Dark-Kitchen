@@ -28,7 +28,7 @@ nav ul{
         display: flex;
         margin: auto;
     }
-}
+
 @media only screen and (max-width: 700px) {
     .heading-tertiary {
         margin-top: 80%;
@@ -257,9 +257,7 @@ a:focus {
     
   }
   .menu {
-      background-color:#da6b1d;
-  }
-
+  background-color:#da6b1d;
   background-color: rgba(253, 200, 101, 0.986);
   border: 1px solid grey;
   color: white;
