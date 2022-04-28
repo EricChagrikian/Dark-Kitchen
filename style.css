@@ -4,9 +4,14 @@ html, body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
 
+   
+
+
+
     
 }
 nav ul{
+
     justify-content: center;
     margin-top: -15%;
 
@@ -17,8 +22,7 @@ nav ul{
     nav ul {
         display: flex;
     }
-    form {
-        display: flex;
+    
     }
     form {
         display: flex;
@@ -30,6 +34,7 @@ nav ul{
         margin-top: 80%;
     }
 }
+
 
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
@@ -63,6 +68,7 @@ header li, a {
     outline: 0;
     display: none;
 }
+
 header li {
     width: 230px;
     text-indent: 56px;}
@@ -179,27 +185,87 @@ a:focus {
     object-fit: cover;
     position: relative;
     z-index: -1;
+
 }
-
-
-
+/*<--- card----->*/
 
 
 .card {
+
+    background-color: rgba(253, 200, 101, 0.986);
+    border: 1px solid grey;
+    border-radius:30px;
+    color: black;
+    padding: 1rem;
+    height: 600px;
+   
+  
+  }
+  .cards {
+      padding: 1rem;
+      display: grid;
+      gap: var(--_spacer);
+      grid-auto-flow: column;
+      grid-auto-columns: 21%;
+      overflow-x: auto;overscroll-behavior-inline: contain;
+      column-gap: 1%;
+      box-shadow: 0 0 5rem rgba(0,0,0,.4);
+      background-color: rgba(0,0,0,.4);
+     
+    }
+  
+  article:first-of-type img.preview {
+      background-image: url(./images/medium-burger.png);
+      width: 100%;
+      height: 160px;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  article ul {
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  article li {
+      margin-left: 5px;
+  }
+  
+  button {
+      display: flex;
+      min-width: 32%;
+      max-width: 40%;
+      height: 4%;
+      margin: auto;
+      background-color: rgb(150, 150, 202);
+      flex-wrap: nowrap;
+      overflow: hidden;
+  }
+  
+  button img {
+      max-width: 20%;
+      margin-left: 3px;
+  }
+  .heading{
+    font-size: 5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Times, "Times New Roman", Georgia, serif;
+    color: grey;
+    
+  }
+  .menu {
+      background-color:#da6b1d;
+  }
+
   background-color: rgba(253, 200, 101, 0.986);
   border: 1px solid grey;
   color: white;
   padding: 1rem;
   height: 37rem;
 }
-.cards {
-    padding: 1rem;
-    max-width: 1500px;
-    margin: 0 auto;
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
 
 
 article:first-of-type img.preview {
@@ -247,3 +313,4 @@ form div {
 h3 {
    margin-top: -1%;
 }
+
