@@ -8,6 +8,18 @@ html, body {
 body {
     background-image: url(./img/background.png);
 }
+
+.darkMode {
+    background-image: url(./img/darkbackground.jpg);
+    background-color: #000;
+}
+
+button.dmb {
+    z-index: 2;
+    margin-top: 15px;
+}
+
+
 nav ul{
 
     justify-content: center;
@@ -230,7 +242,6 @@ a:focus {
 
 
   .menu{
-
     border: 1px solid grey;
     color: white;
     padding: 1rem;
