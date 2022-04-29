@@ -275,7 +275,7 @@ function removeItem(event){
     console.log(del_btn)
     grandTotal()
     
-
+}
 function darkMode() {
 var element = document.body;
 element.classList.toggle("darkMode");

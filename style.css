@@ -216,11 +216,12 @@ a:focus {
 }
 
 .cards {    
-    padding: 1rem;
+    padding: 2rem;
     display: grid;
     gap: var(--_spacer);
     grid-auto-flow: column;
     overflow-x: auto;overscroll-behavior-inline: contain;
+    overflow-y: hidden; 
     column-gap: 1%;
     box-shadow: 0 0 1rem rgba(0,0,0,.4); 
     background-color: rgba(125, 121, 121, 0.089);    
