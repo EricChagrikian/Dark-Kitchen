@@ -271,6 +271,12 @@ footer {
 
 /*<----carte google contact ------------*/
 
+.row {
+    display: flex;
+    grid-order: 1;
+}
+
+
 iframe {
     height: 400px;
     width: 100%
@@ -344,3 +350,67 @@ article h1 {
 article h2 {
     font-size: medium;
 }
+/*<----list---->*/
+.container{
+    margin: auto;
+    margin-top: 20px;
+    /* border: 3px solid black; */
+}
+.col-md-, .col-lg-4{
+    margin-bottom: 20px;
+    position: relative;
+    top: 50px;
+    
+}
+.sty{
+    font-size: 18px !important;
+    color: black !important;
+}
+.num{
+    width: 80px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+.uk-border-circle{
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.uk-overflow-auto{
+    margin-left: auto;
+    margin-right: auto;
+    background-color:orange;
+    width: 80%;
+    border:1px solid black;
+}
+
+.bouton ,.uk-button .uk-button-danger{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2) 30%,
+    rgba(0, 0, 0, 0));
+box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.bouton:hover {
+background-color: rgba(255, 0, 0, 1);
+}
+.bouton:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
