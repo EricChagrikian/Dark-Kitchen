@@ -129,6 +129,7 @@ let bouffe = [
 
 const cards = document.querySelector('.cards')
 
+
 for (let i=0;i<bouffe.length;i++) {
     console.log(bouffe[i].Name)
 
@@ -185,6 +186,7 @@ for(let i = 0; i < addToCartButtons.length; i++){
     addToCartButtons[i].addEventListener('click', addToCart)
     
 }
+
 
 function addToCart(event){
 
@@ -273,4 +275,9 @@ function removeItem(event){
     console.log(del_btn)
     grandTotal()
     
+
+function darkMode() {
+var element = document.body;
+element.classList.toggle("darkMode");
+
 }
