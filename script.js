@@ -124,6 +124,7 @@ let bouffe = [
 
 const cards = document.querySelector('.cards')
 
+
 for (let i=0;i<bouffe.length;i++) {
     console.log(bouffe[i].Name)
 
@@ -170,4 +171,9 @@ for (let i=0;i<bouffe.length;i++) {
     Prix.className = 'Prix'
     category.appendChild(Prix)
 
+}
+
+function darkMode() {
+var element = document.body;
+element.classList.toggle("darkMode");
 }
